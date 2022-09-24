@@ -1,0 +1,33 @@
+
+Git Bash
+
+vi file1.txt -> will create/open a file. enter i+Enter to make it edit mode, after adding content press Esc and do Shift+ZZ to save and exit the file
+cat file1.txt -> will show the content of the file in cmd console (-b -> will show line numbers also)
+rm fi e -> will remove file (note : rm delete will not be stored in trash )
+rm -i file -> will remove file with confirmation
+cp file1 file2 -> will copy file1 and name it file2
+mv file1 D:/work -> will move file1 to work folder
+wc file1.txt -> will give number of lines, words and size
+cd ~ -> will show home directory
+mkdir test test4 -> will create 2 directories in the current folder
+mkdir -p test/test1/test2 -> will create sub/parent folders
+rmdir -> remove folder
+mv olddir newdir -> will rename folder
+cmd --help -> will show available options for the command
+PS1='=>' -> changes cmd chars to =>
+PS2='ms' -> changes 2nd cmd chars to ms
+export NEW_VAR="Testing export" -> create Env variable
+NEW_VAR1="Testing export" -> will create shell variable
+export TEST_VAR -> will make shell var to Env var
+export -n TEST_VAR -> will make Env var to a shell var
+unset name_var -> will delete any var, be it shell or env var
+nano ~/.bashrc -> can add permanent env var to this bash file and This variable will be available on every shell instance for the current user(source .bashrc to reflect this or rstart the shell )
+nano /etc/environment -> can add permanent env var to this environment file and This variable will be available for all users in the system(source .bashrc to reflect this or rstart the shell )
+
+
+
+
+#!/bin/bash -> is it needed
+how unix script is working in windows system
+
+

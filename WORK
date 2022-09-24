@@ -1,0 +1,60 @@
+
+Gitbash
+git init -> will make the current directory as a git repository
+git clone https://github.com/muthuin2020/secondCucumber.git -> will clone a remote repository to local
+pwd - prints current working directory
+whoami - prints current user
+git help - will show all available git commands
+git help -a -> will show details of commands
+git help -g -? will show details of command
+touch demo.txt - will create a text file
+git status - will give details of files to be commited
+cd /c, cd /d - will take us to that folders. / means root folder in linux
+cd desktop - will take us to desktop folder
+./notepad++.exe -  will open notepad++ if u r in that exe folder...., ./{exe file} - will open that exe file
+C:/Program\ Files/Notepad++/notepad++.exe - will open notepad++.exe
+notepad++ -> will open notepad++ from anywhere if it is set in system, env path
+which clear - will show where this clear command is stored.
+put inside "" or use escape char if folder or file name has space. eg - cd "Program Files" or Program\ Files
+>> test.txt -  will create tx file test
+echo helloo >> test3.txt - will create txt file test3 and will write "helloo" in  it. if file already available then it will append the text to that file
+git add demo.txt - add file demo.txt to staging )
+git rm test1.txt --force -> will completely delete the file test1.txt
+git rm cmdFile.txt --cached -> will remove file cmdFile.txt from staging
+git rm demo4.txt -  remove file demo4.txt from staging
+git add . -> will add new files to staging
+cat test3.txt -  will read content from file test3.txt
+git config --global user.email="marxmuthu2020@gmail.com" - setting user email
+git config --global user.name="muthu" -  setting user name
+git config --global user.email="marxmuthu2020@gmail.com" - getting user email
+git config --global user.name="muthu" -  getting user name
+rm demo.txt - will delete file named demo.txt
+git config --global -l -> will list all available global git config
+git config -l -> will list all git configs
+ls -a -> will give detailed results
+files/folders starts with . are hidden files
+git log - will show all commits logs
+git log --oneline -> will show commits only in the master branch( if we are in master branch) in chronological order 
+git log --oneline --reflog -> will show commits in the all branches in chronological order
+git rm demo1.txt - will remove file demo1.txt
+git help {command} - will show details about this command in webpage. eg - git help add -> will show details of git add command
+git branch -m {name} - will change current branch name. eg - git branch -m gitMaster - will change current branch name to gitMaster
+git branch -m sample sampling -> will change branch's name from sample to sampling
+git remote add origin https://github.com/muthuin2020/demo.git -  will copy local repo to remote repo. note - origin here is just a name, it can be any name
+git push -u origin master -> will push our code from local to remote. note -> origin is a name of remote repo and master is the local branch name that we want to push 
+git config --global core.editor "notepad++ -multiInst -nosession" -> will set notepad++ as default git editor
+git commit -> will open that file and we can enter commit message there
+git branch -> will list all branches ( current branch will be marked with *, and branches will be shown only if it has atleast 1 commit )
+git branch test -> will create branch called test
+git checkout test -> will switch to branch test
+git switch test -> will switch to branch test
+git checkout -b sample -> will create branch named sample and will switch to it
+rm -rf .git -> will remove .gt and make this as just a normal folder
+git merge testing -> will merge branch testing to current branch
+git merge --abort -> will abort current merge in progress ( in merge conflict )
+git checkout --ours new.txt -> will keep our change in new.txt file
+git checkout --theirs new.txt -> will keep incoming branch's change in new.txt file
+notepad++ ~/.gitconfig -> will open git configs in notepad++
+vi testing.txt -> will create/edit file. press i to edit and enter needed text , then press esc and shift+ZZ, now file will be closed
+cat -b test.txt -> will show content with line numbers
+wc test.txt -> will show number of lines,words and size.

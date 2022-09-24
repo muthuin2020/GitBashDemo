@@ -1,0 +1,48 @@
+Comd prompt
+cd Desktop/files - change folder
+chdir Desktop/files - change folder
+dir - list items in folder
+cls - clears terminal 
+copy test.jpg testCopy.jpg - copy files
+fc test1.txt test2.txt - file comparing
+fc test1.txt test2.txt >test3.txt - copy comparision to new file
+del test1.txt - delete file
+del *.txt - delete all txt files
+mkdir test1 - create a folder test1
+ipconfig - display IP addres
+ipconfig /all - display all network details including IP addres
+d: - previous folder in D
+c: - previous folder in C
+sort "client interview.txt" - lisint content of text file
+rmdir test - delete folder named test ( only if it has no content )
+rm -r test2 - will delete folder named test2 even if it has content
+rmdir test1 test3 - delete folders test1 test3
+ren mobiles.txt mob.txt - rename a file
+ren test testing - rename folder test to testing
+mkdir test1 test2 test4 - create 3 folders
+date - displaying date
+time - displaying time
+ver - current version of cmd
+mspaint - opening paint
+prompt myCmd - will not show C:/users, instead it will show myCmd
+prompt /? - eg - prompt $B will not show C:/users, instead it will show |
+prompt - will display default
+cmd /? - will show the options of that command. eg - cd /? will show how u can use cd command
+help - will show most used commands
+mkdir test11\test12\test46 - creates 3 folders in the current directory
+doskey /history - will show history 
+fn+f7 - will show history and we can run all commands from particular place
+&& - to run more commands. eg - mkdir test1 && cd test1 will create folder test1 and move to it
+cmd | clip - will copy the result of that command to clipboard. eg - dir | clip will copy the list to clipboard
+type cmd in the folder path field and it will open cmd prompt pointing to that folder
+drag any file/folder to cmd and its path will be pasted in cmd
+driverquery - will list all the drivers installed in computer
+systeminfo  - will list system informations
+ping www.google.com - will give details about comm
+
+Powershell
+get-command copy - will show details of copy command
+get-alias - will show the functionality of all commands
+start explorer -  will open explorer
+test1.txt -  will open that file
+test1.txt /t - will focus on thar file
