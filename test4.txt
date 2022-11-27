@@ -5,11 +5,15 @@ testing fetch
 fetching again
 pulling from same branch
 fetching from main branch
+appending a new linne
 main
 appedning new line fron branch test4
 tes
 testing fetch...
 rm --cache test
+re
 rm --
 change from test4
 change 2 from test4
+eee
+change from main
