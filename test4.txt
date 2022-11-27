@@ -13,3 +13,4 @@ rm --cache test
 rm --
 change from test4
 change 2 from test4
+change 3 from test4
